@@ -12,4 +12,4 @@ A mock-up has been included to provide visual guidance. Your UI does not have to
 This exercise should not take more than a few hours. It's okay to get creative but don't stress yourself out!
 
 
-When you are finished, just zip your local repo and send it on over. And of course, email us if you have questions.
+When you are finished, either send us a forked repo, or zip your local repo (no node modules please!) and send it on over. And of course, email us if you have questions.
