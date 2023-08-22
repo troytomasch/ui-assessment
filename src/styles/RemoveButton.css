@@ -1,0 +1,20 @@
+.Button {
+  border-radius: 1.25rem;
+  border-width: 0.25rem;
+  border-style: solid;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: medium;
+  text-align: center;
+  padding: 0.25rem;
+  color: gray;
+  background-color: white;
+  left: 20rem;
+  top: 2rem;
+  margin: 0;
+}
+
+.Button:hover {
+  cursor: pointer;
+}

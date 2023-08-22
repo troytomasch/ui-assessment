@@ -1,0 +1,38 @@
+.Card {
+  border-width: 0.3rem;
+  border-color: gray;
+  border-radius: 1rem;
+  border-style: solid;
+  width: 16rem;
+  height: 18rem;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.TitleAndArtist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-shrink: 1;
+}
+
+.AlbumTitle {
+  font-size: x-large;
+}
+
+.AlbumArtist {
+  font-size: medium;
+}
+
+.AlbumArtwork {
+  width: 13rem;
+  height: 12rem;
+  flex-grow: 2;
+}

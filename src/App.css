@@ -1,0 +1,10 @@
+.App {
+  padding: 3rem;
+}
+
+.Options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}

@@ -1,0 +1,12 @@
+.RestoreAlbums {
+  font-size: large;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-color: gray;
+  color: gray;
+  padding: 0.3rem;
+}
+
+.RestoreAlbums:hover {
+  cursor: pointer;
+}
