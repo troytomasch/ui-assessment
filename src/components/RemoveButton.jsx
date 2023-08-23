@@ -3,6 +3,7 @@ import "../styles/RemoveButton.css";
 import { useContext } from "react";
 import { AlbumContext } from "../data/albumContext";
 
+// Component to remove an album from the current display
 const RemoveButton = (props) => {
   const { currentAlbums, setCurrentAlbums } = useContext(AlbumContext);
   const album = props.album;

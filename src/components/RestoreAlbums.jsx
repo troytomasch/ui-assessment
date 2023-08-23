@@ -3,6 +3,7 @@ import "../styles/RestoreAlbums.css";
 import albums from "../data/albums.json";
 import { AlbumContext } from "../data/albumContext";
 
+// Component to restore albums that were removed
 const RestoreAlbums = () => {
   const { setCurrentAlbums } = useContext(AlbumContext);
 

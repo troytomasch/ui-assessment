@@ -20,9 +20,12 @@ function App() {
   return (
     <AlbumContext.Provider value={value}>
       <div className="App">
-        <div className="Options">
-          <SortAlbums />
-          <RestoreAlbums />
+        <div className="Header">
+          <h2 className="Title">Your Music</h2>
+          <div className="Options">
+            <SortAlbums />
+            <RestoreAlbums />
+          </div>
         </div>
         <Layout />
       </div>

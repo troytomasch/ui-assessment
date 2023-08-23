@@ -3,6 +3,7 @@ import "../styles/AlbumCard.css";
 import { getImageAlt } from "../data/utilities";
 import RemoveButton from "./RemoveButton";
 
+// Component for the card to display the album
 const AlbumCard = (props) => {
   const album = props.album;
   const imageAlt = getImageAlt(album.artworkUrl);

@@ -2,7 +2,9 @@ import React from "react";
 import { useContext } from "react";
 import { AlbumContext } from "../data/albumContext";
 import { sortByArtist, sortByTitle } from "../data/utilities";
+import "../styles/SortAlbums.css";
 
+// Dropdown component that sorts albums by artist or title
 const SortAlbums = () => {
   const { currentAlbums, setCurrentAlbums } = useContext(AlbumContext);
 
@@ -25,13 +27,14 @@ const SortAlbums = () => {
   };
 
   return (
-    <div>
-      <label>Sort By: </label>
+    <div className="SortAlbumsContainer">
+      <label className="SortAlbumsLabel">Sort By: </label>
       <select
         onChange={(event) => {
           handleSelection(event.target.value);
         }}
         defaultValue={"default"}
+        className="SortAlbumsSelect"
       >
         <option value="default" disabed="true" hidden>
           Select an option

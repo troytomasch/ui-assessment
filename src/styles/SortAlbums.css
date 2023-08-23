@@ -1,0 +1,18 @@
+.SortAlbumsLabel {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.SortAlbumsSelect {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: 10rem;
+}
+
+.SortAlbumsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+}

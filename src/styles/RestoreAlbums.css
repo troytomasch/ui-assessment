@@ -2,9 +2,11 @@
   font-size: large;
   border-radius: 0.25rem;
   border-style: solid;
-  border-color: gray;
-  color: gray;
-  padding: 0.3rem;
+  border-color: black;
+  border-width: 0.1rem;
+  color: black;
+  padding: 0.4rem;
+  white-space: nowrap;
 }
 
 .RestoreAlbums:hover {
